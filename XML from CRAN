@@ -1,0 +1,12 @@
+Issue:
+xml2-config detected within anaconda directory, but isn't as it should be
+
+Solution:
+
+i. check where xml2-config is located
+locate xml2-config
+
+ii. set path in R
+Sys.setenv(XML_CONFIG="usr/bin/xml2-config")
+
+iii. install XML in R
